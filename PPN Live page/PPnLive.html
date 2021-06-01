@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login</title>
+    <link rel="stylesheet" href="stafflogin.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script src="stafflogin.js"></script>
+</head>
+
+<body>
+    <div id="logo" onmouseover="rotateYDIV()">
+        <img src="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\Icons\logo.jpg" alt="PPN College">
+    </div>
+    <form class="box" method="POST" name="myform" action="login.php">
+        <img src="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\Icons\icon.png" alt="icon">
+        <h1>PPN LIVE </h1>
+        <input type="text" id="username" placeholder="username" required>
+        <p id="uname">
+
+        </p>
+        <input type="password"  id="password" placeholder="password" required>
+        <p id="pass">
+            
+        </p>
+       <div class="login logo">
+            <input onclick="validateform()" type="submit" name="" value="Login">
+       </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+body{
+    background-color: #1a1a1a;
+    font-family: 'Balsamiq Sans', cursive;
+    height: auto;
+}
+
+#logo{
+    padding: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+        transform : rotateY(0deg);
+    }
+    to{
+        transform : rotateY(360deg);
+    }
+}
+
+
+#myInput {
+  /* background-image: url('/css/searchicon.png');  */
+  background-position: 10px 12px;
+  background-repeat: no-repeat; 
+  width: 150px; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  outline: none;
+  line-height: 15px;
+}
+
+input[type="text"]{
+    background: #454545;
+    color: #ddd;
+}
+
+#myInput:hover{
+    box-shadow: 0 0 9px 10px red;
+}
+
+td{
+    cursor: pointer;
+}
+
+
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    /* border: 2px solid red; */
+    /* background-color: #155a57; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#home{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+    /* height: 100px; */
+    transition: width 2s;
+}
+
+
+#home:hover{
+    background-color: #454545;
+    border-radius: 5px;
+    width: 150px;
+    box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    /* height: 150px; */
+}
+
+#president{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#president:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#courses{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+     transition: width 2s;
+    width: 100px;
+}
+
+#courses:hover{
+     background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#tenders{
+     /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#tenders:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#rules{
+   
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+     word-wrap: keep-all;
+}
+
+#rules:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#admission{
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#admission:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#important{
+      /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#important:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+.img-icon{
+   display: flex;
+   justify-content: center;
+   transition: width 2s height 5s;
+}
+
+#tablecourses{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tablecourses th,#tablecourses td{
+    border: 2px solid #ddd;
+    padding: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#tablecourses tr:nth-child(even)
+{
+    background: #454545;
+}
+
+#tablecourses tr:nth-child(odd)
+{
+    background: white;
+}
+
+#tablecourses tr:hover{
+   background-color: #e84118;
+}
+
+#tablecourses th{
+    background-color: green;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.copyright{
+    /* border: 2px solid rebeccapurple; */
+    background: #e84118;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+#tablecourses td a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,249 @@
+body{
+    background-color: #1a1a1a;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#logo{
+    padding: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+        transform : rotateY(0deg);
+    }
+    to{
+        transform : rotateY(360deg);
+    }
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    /* border: 2px solid red; */
+    /* background-color: #86a642; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+    /* height: 100px; */
+    transition: width 2s;
+}
+
+
+#home:hover{
+    background-color: #454545;
+    border-radius: 5px;
+    width: 150px;
+    box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    /* height: 150px; */
+}
+
+#president{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#president:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#courses{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+     transition: width 2s;
+    width: 100px;
+}
+
+#courses:hover{
+     background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#tenders{
+     /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#tenders:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#rules{
+   
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+     word-wrap: keep-all;
+}
+
+#rules:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#admission{
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#admission:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#important{
+      /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#important:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+.baimg {
+   display: flex;
+   justify-content: center;
+}
+
+.time{
+    text-align: center;
+    background: red;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+#search-ba{
+     background-position: 10px 12px;
+  background-repeat: no-repeat; 
+  width: 150px; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  outline: none;
+  line-height: 15px;
+}
+
+input[type = "text"]
+{
+    padding: 15px;
+    outline: none;
+    border-radius: 15px;
+    /* float: right; */
+    color: white;
+    background: #454545;
+}
+
+input[type = "text"]:hover{
+    box-shadow: 0 0 9px 14px greenyellow;
+}
+
+#bacourses{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bacourses th,#bacourses td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #ddd;
+    letter-spacing: 2px;
+}
+
+#bacourses th{
+    background: #78428c;
+    color: white;
+    font-size: 18px;
+}
+
+#bacourses tr:nth-child(odd)
+{
+    background: #454545;
+}
+
+#bacourses tr:nth-child(even)
+{
+    background: white;
+}
+
+#bacourses tr:hover{
+    background: blue;
+}
+
+.notes{
+    /* border: 2px solid blue; */
+    background: violet;
+    margin: 15px;
+    letter-spacing: 2px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.notes h1{
+    color: red;
+    text-align: center;
+}
+
+
+
+.copyright{
+    /* border: 2px solid rebeccapurple; */
+    background: #418c96;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}

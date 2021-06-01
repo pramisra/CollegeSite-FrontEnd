@@ -1,0 +1,230 @@
+body{
+    background-color: #1a1a1a;
+    font-family: 'Balsamiq Sans', cursive;
+    height: auto;
+}
+
+#logo{
+    padding: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+        transform : rotateY(0deg);
+    }
+    to{
+        transform : rotateY(360deg);
+    }
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    /* border: 2px solid red; */
+    background-color: #820707;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#home{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+    /* height: 100px; */
+    transition: width 2s;
+}
+
+
+#home:hover{
+    background-color: #454545;
+    border-radius: 5px;
+    width: 150px;
+    box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    /* height: 150px; */
+}
+
+#president{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#president:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#courses{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+     transition: width 2s;
+    width: 100px;
+}
+
+#courses:hover{
+     background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#tenders{
+     /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#tenders:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#rules{
+   
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+     word-wrap: keep-all;
+}
+
+#rules:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#admission{
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#admission:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#important{
+      /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#important:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+.imgbsc
+{
+    display: flex;
+    justify-content: center;
+}
+
+.timebsc{
+    text-align: center;
+    /* background: red; */
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+#tablebsc
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tablebsc th,#tablebsc td
+{
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#tablebsc th
+{
+    color: white;
+    background: green;
+    font-size: 20px;
+}
+
+#tablebsc tr:nth-child(odd)
+{
+    background: #454545;
+}
+
+#tablebsc tr:nth-child(even)
+{
+    background: white;
+}
+
+#search-bsc{
+    padding: 15px;
+    outline: none;
+    background: wheat;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.notebsc
+{
+    background: violet;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 15px;
+}
+
+.notebsc h1{
+    color: red;
+    font-size: 45px;
+    text-align: center;
+}
+
+.copyright{
+    /* border: 2px solid rebeccapurple; */
+    background: #418c96;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}

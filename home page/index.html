@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo" onmouseover="rotateYDIV()">
+            <img src="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\Icons\logo.jpg" alt="PPN COLLEGE">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html" id="home" class="active">HOME</a></li>
+                <li><a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\President Meassage\president.html"
+                        id="president">PRESIDENT'S MESSAGE</a></li>
+                <li><a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\courses page\courses.html"
+                        id="courses">COURSES</a></li>
+                <li><a href="#" id="tenders">TENDERS</a></li>
+                <li><a href="#" id="rules">RULES NORMS</a></li>
+                <li><a href="#" id="admission">ADMISSIONS</a></li>
+                <li><a href="#" id="important">IMPORTANT LINKS</a></li>
+            </ul>
+        </div>
+        <!--Side Panel-->
+        <div class="sidepanel" id="mysidepanel">
+            <a href="#" class="closebtn" onclick="closenav()">x</a>
+            <a href="#">Home</a>
+            <a href="#">Teaching/Non-Teaching Staff</a>
+            <a href="#">Tenders</a>
+            <a href="#">Annual Fest</a>
+        </div>
+        <div class="menu-bar" id="icon" onclick="opennav()">
+            <i class="fas fa-bars" style="font-size: 45px;"></i>
+        </div>
+
+
+    </div>
+
+    <!--Search Bar-->
+    <div class="searchbar">
+        <input type="search" name="" class="search-txt" placeholder="Type to Search">
+        <a href="#" class="search-btn">
+            <i class="fas fa-search" style="font-size: 25px;"></i>
+        </a>
+    </div>
+    </div>
+
+    <!--Bottom Nav Bar-->
+    <div class="container2">
+        <div class="imgcollege" id="gg">
+            <img src="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\Icons\gg.gif"
+                alt="#">
+        </div>
+        <div class="bottomnav" id="mybottomnav">
+            <a href="https://en.wikipedia.org/wiki/Pandit_Prithi_Nath_College" target="_blank" class="bottomactive"
+                id="aboutcllg">About
+                the College</a>
+            <a href="#" id="study">Why should you study with us?</a>
+            <a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\PPN Live page\PPnLive.html"
+                id="annual">PPN Live</a>
+            <a href="#" id="alumni">Alumni and Its Donor</a>
+            <a href="#" id="latestcllg">Latest College News and Events</a>
+        </div>
+    </div>
+
+    <!--Vision and Mission Box-->
+    <div class="conatinerbox">
+        <div class="box1" id="vision">
+            <p>Vision : To mould the minds of young towards attainment of wisdom.</p>
+        </div>
+        <div class="box1" id="mission">
+            <p>Mission : 1 :- To inculcate humanity and discipline in various fields of life.<br>2 :- To prepare the
+                students for job.<br>3 :- To develop the students as responsible citizens for the country.</p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer-box">
+        <div class="footer-bar">
+            <div id="map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.195809813961!2d80.33112611435516!3d26.449416486249397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c476d92df335b%3A0x8c7309097013dfd2!2sP.P.N.%20Degree%20College%20Kanpur!5e0!3m2!1sen!2sin!4v1598556001164!5m2!1sen!2sin"
+                    width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="address">
+                <h1>College Address</h1>
+                <p>96/12, Mahatma Gandhi Marg,<br> Kanpur U.P.
+                    208001 <a href="https://goo.gl/maps/EYr5uVZA8Akgekyf6" target="_blank"><i class="fas fa-map-pin"
+                            style="font-size: 25px;"></i></a> </p>
+                <hr>
+                <p>Phone/Fax No.-0512-2361924</p>
+                <hr>
+                <p>ppncollegekanpur@gmail.com <br>
+                    admin@ppncollege.org <br>
+                    principal@ppncollege.org</p>
+            </div>
+            <div class="courses">
+                <h3>Courses</h3>
+                <ul>
+                    <li><a href="#"><i class="fa fa-square" aria-hidden="true" style="color:black"></i> Aided</a>
+                        <ol>
+                            <li><a
+                                    href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\courses page\BA.html">B.A</a>
+                            </li>
+                            <li><a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\courses page\BCom.html">B.Com</a></li>
+                            <li><a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\courses page\Bsc.html">B.Sc</a></li>
+                            <li><a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\courses page\MA.html">M.A</a></li>
+                            <li><a href="F:\The PHP full Stack web Development 2020\Website Projects\PPN College Site\courses page\MSc.html">M.Sc</a></li>
+                        </ol>
+                    </li>
+
+                    <li><a href="#"><i class="fa fa-square" aria-hidden="true" style="color:black"></i>
+                            Self-Financed</a>
+                        <ol>
+                            <li><a href="#">B.B.A</a></li>
+                            <li><a href="#">B.C.A</a></li>
+                            <li><a href="#">B.Com(Girls)</a></li>
+                            <li><a href="#">M.Com</a></li>
+                            <li><a href="#">M.Sc(Zoology)</a></li>
+                        </ol>
+                    </li>
+
+                    <li><a href="#"><i class="fa fa-square" aria-hidden="true" style="color:black"></i> B.T.C</a></li>
+
+                    <li><a href="#"><i class="fa fa-square" aria-hidden="true" style="color:black"></i> AIPS</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="https://www.ncte.gov.in/Website/Index.aspx" target="_blank"><i class="fa fa-star"
+                                aria-hidden="true" style="color:black"></i> N.C.T.E Jaipur</a></li>
+                    <li><a href="https://www.ncte.gov.in/Website/Index.aspx" target="_blank"><i class="fa fa-star"
+                                aria-hidden="true" style="color:black"></i> N.C.T.E Delhi</a></li>
+                    <li><a href="https://nroer.gov.in/welcome" target="_blank"><i class="fa fa-star" aria-hidden="true"
+                                style="color:black"></i> SCERT Lucknow</a></li>
+                    <li><a href="https://www.ugc.ac.in/" target="_blank"><i class="fa fa-star" aria-hidden="true"
+                                style="color:black"></i> U.G.C</a></li>
+                    <li><a href="http://www.naac.gov.in/" target="_blank"><i class="fa fa-star" aria-hidden="true"
+                                style="color:black"></i> NACC Banglore</a></li>
+                    <li><a href="http://www.kanpuruniversity.org/" target="_blank"><i class="fa fa-star"
+                                aria-hidden="true" style="color:black"></i> C.S.J.M</a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-star" aria-hidden="true" style="color:black"></i>
+                            DIET</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p><b>Copyright © 2012 -2021 All Rights Reserved - www.ppncollege.org</b></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

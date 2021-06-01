@@ -1,0 +1,458 @@
+body{
+    background-color: #1a1a1a;
+    font-family: 'Balsamiq Sans', cursive;
+    height: auto;
+}
+
+
+
+#logo{
+    padding: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    from{
+        transform : rotateY(0deg);
+    }
+    to{
+        transform : rotateY(360deg);
+    }
+}
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    /* border: 2px solid red; */
+    /* background-color: #7700e6; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#home{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+    /* height: 100px; */
+    transition: width 2s;
+}
+
+
+#home:hover{
+    background-color: #454545;
+    border-radius: 5px;
+    width: 150px;
+    box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    /* height: 150px; */
+}
+
+#president{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#president:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#courses{
+    /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+     transition: width 2s;
+    width: 100px;
+}
+
+#courses:hover{
+     background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#tenders{
+     /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#tenders:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#rules{
+   
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+     word-wrap: keep-all;
+}
+
+#rules:hover{
+    background-color:#454545;
+    border-radius: 5px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+    width: 150px;
+}
+
+#admission{
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#admission:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+#important{
+      /* border: 2px solid white; */
+    padding: 3px;
+    border-radius:5px ;
+    width: 100px;
+     transition: width 2s;
+}
+
+#important:hover{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+.menu-bar
+{
+    color: white;
+}
+
+.sidepanel{
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 100;
+  left: 0;
+  background-color: rgba(165, 180, 152, 0.582);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a{
+    padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover{
+    color: #f1f1f1;
+    text-shadow: 0 0 11px red;
+}
+
+.sidepanel .closebtn{
+    position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(82, 95, 8);
+  color: rgb(114, 12, 12);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:rgb(179, 42, 60);
+}
+
+.navbar a.active{
+    background-color:#454545;
+    border-radius: 5px;
+    width: 150px;
+     box-shadow:  0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+div.imgcollege{
+    position: relative;
+    margin-top: 50px;
+}
+
+#mybottomnav a{
+    position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mybottomnav a:hover{
+    left: 0;
+}
+
+.bottomnav a.bottomactive{
+    top: 375px;
+    background-color: #4CAF50;
+    text-shadow: 0 0 9px blue;
+}
+
+#aboutcllg{
+    top: 375px;
+    background-color: #4CAF50;
+    text-shadow: 0 0 9px red;
+}
+
+#study{
+    top: 445px;
+background-color: #7700e6;
+text-shadow: 0 0 9px red;
+}
+
+#annual{
+    top: 565px;
+    background-color: 	#660033;
+    text-shadow: 0 0 9px red;
+}
+
+#alumni{
+    top: 615px;
+    background-color: 	#666600;
+    text-shadow: 0 0 9px red;
+}
+
+#latestcllg{
+    top: 678px;
+    background-color: 	#660066;
+    text-shadow: 0 0 9px red;
+}
+
+
+.imgcollege{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box1 {
+    display: inline-block;
+    border-radius: 100px;
+    width: 630px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#vision{
+    padding: 14px 16px ;
+    margin: 14px auto;
+    cursor: pointer;
+}
+
+#mission{
+    padding: 14px 16px;
+    margin: 14px auto;
+    cursor: pointer;
+}
+
+#vision:hover{
+    box-shadow:0 0 9px 10px#4CAF50;
+}
+
+#mission:hover{
+    box-shadow: 0 0 9px 10px #fc9d03;
+}
+
+.searchbar{
+    float: right;
+    /* margin: 0;
+    padding: 0; */
+    position: absolute;
+    top: 242px;
+    right: 15px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    padding: 10px;
+    background:#2f3640;
+}
+
+.search-btn{
+    color:#e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.searchbar:hover > .search-txt{
+    width: 240px;
+}
+
+.searchbar:hover{
+    box-shadow: 0 0 9px 10px blue;
+}
+
+#map{
+    width: 300px;
+    height: 300px;
+    margin: 5px auto;
+    margin: 35px;
+    padding: 35px;
+}
+
+.footer-box{
+    background-color: #489448;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.address{
+    color: white;
+    float: right;
+    position: absolute;
+       top: 1155px;
+    left: 530px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.address:hover{
+    box-shadow: 0 0 9px 10px blue;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: rgb(114, 12, 12);
+    border-radius: 50%;
+    letter-spacing: 5px;
+}
+
+.courses{
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 1168px;
+    left: 890px;
+    /* text-align: center; */
+
+}
+.courses h3{
+    text-align: center;
+}
+
+.courses ul li{
+  list-style-type: none;
+}
+
+.courses ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.courses:hover{
+    box-shadow: 0 0 9px 10px #7a3c69;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.courses a:hover{
+    color: #660033;
+}
+
+.links{
+    color: white;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 1168px;
+    left: 1125px;
+}
+
+.links h3{
+    text-align: center;
+}
+
+.links ul li
+{
+    list-style-type: none; 
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover{
+    box-shadow: 0 0 9px 10px #9c1432;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.links a:hover{
+    color: blue;
+}
